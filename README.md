@@ -21,7 +21,7 @@ This repository provides a tool to convert a Vector.dev configuration TOML file 
 
 4. **Output File**
    - The PlantUML code will be generated in `diagram.puml`.
-   - uplaod the file in plantuml server or vscode plugin to generate the diagram.
+   - Upload the file in plantuml server or vscode plugin to generate the diagram.
 
 ## Example
 
@@ -32,7 +32,3 @@ This repository provides a tool to convert a Vector.dev configuration TOML file 
    go run main.go
    ```
 3. Check the generated `diagram.puml` for the PlantUML diagram.
-
----
-
-Feel free to adjust any part of this as needed! Is there anything else you'd like to add or modify?
