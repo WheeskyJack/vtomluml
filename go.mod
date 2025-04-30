@@ -1,4 +1,4 @@
-module ptoml
+module vtomluml
 
 go 1.24.2
 
