@@ -10,7 +10,7 @@ import (
 
 func main() {
 	// Assuming you have a toml file named 'data.toml'
-	tomlFile, err := os.Open("data3.toml")
+	tomlFile, err := os.Open("data.toml")
 	if err != nil {
 		fmt.Println("Error: data.toml not found.")
 		return
@@ -26,7 +26,7 @@ func main() {
 	plantumlCode := createPlantUmlDiagram(data)
 
 	// Save the PlantUML code to a file
-	plantumlFile, err := os.Create("diagram3.puml")
+	plantumlFile, err := os.Create("diagram.puml")
 	if err != nil {
 		fmt.Println("Error creating diagram.puml:", err)
 		return
